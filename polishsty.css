@@ -1,0 +1,179 @@
+.banner::before{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 900px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.banner{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    width: 100%;
+    }
+
+div .content{
+    text-align: center;
+    color: rgb(225, 225, 225);
+    border: 3px solid rgb(225, 225, 225);
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 450px;
+    z-index: 2;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+div .button{
+    text-align: center;
+    background-color: rgb(207, 30, 30);
+    width: 125px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+    top: 500px;
+    z-index: 2;
+}
+
+div .button a{
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+    z-index: 2;
+}
+
+div .button:hover{
+    background-color: rgb(116, 13, 13);
+}
+
+.eagle{
+    width: 50px;
+    height: 60px;
+    top: 10px;
+}
+
+body{
+    background-color: rgb(250, 219, 216);
+    color: rgb(120, 40, 31);
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.unit{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section{
+    color:rgb(120, 40, 31);
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.ssection{
+    font-weight: bold;
+}
+
+.stitle{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    opacity: 0.85;
+    margin-bottom: 40px;
+}
+
+.exp{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li{
+    line-height: 40px;
+}
+
+footer.navbar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+footer.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+footer.navbar a{
+    color: rgba(120, 40, 31, 0.75);
+    text-align: center;
+    text-decoration: none;
+}
+
+footer.navbar-unit-one ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+}
+
+footer.navbar-unit-one ul li:first-child {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer.navbar-unit-one ul li a {
+    color: rgba(120, 40, 31, 0.75);
+    text-decoration: none;
+}
+
+footer.navbar-all-lessons {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+
+footer.navbar-all-lessons a {
+    color: rgba(120, 40, 31, 0.75);
+    text-decoration: none;
+}
+
+.nav{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.audio{
+    color:rgb(120, 40, 31);
+}
